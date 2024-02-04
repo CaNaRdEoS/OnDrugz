@@ -1,0 +1,92 @@
+body {
+	margin: 0 auto;
+	font-family: "Amazon Ember",Arial,sans-serif;
+	font-size: 15px;
+	max-width: 1200px;
+	}
+
+main {
+	display: flex;
+	flex-direction: column;
+  	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+p {
+	text-align: justify;
+}
+
+input {
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+input:hover {
+		cursor: pointer;
+}
+
+/*Page de Connexion*/
+
+	#logo {
+		margin: 10px;
+	}
+
+	#page {
+		width: 50vw;
+		border: 2px solid #faebd7;
+		border-radius: 10px;
+		display: flex;
+		flex-direction: column;
+	  	align-items: center;
+		text-align: center;
+		padding-left: 30px;
+		padding-right: 30px;
+	  	padding-bottom: 20px;
+	  	background-color: white;
+	  	max-width: 400px;
+	}
+
+	#titre {
+		text-align: center;
+	}
+
+	.label {
+		font-weight: bold;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.champ {
+		margin-top: 5px;
+	}
+
+	#validation {
+		display: flex;
+		flex-direction: column;
+	}
+	#blocBoutton {
+		margin-top: 10px;
+	}
+
+	.btnConnexion {
+		padding-left: 1vw;
+		padding-right: 1vw;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		background-color: #faebd7;
+		border: white;
+		font-family: "Amazon Ember",Arial,sans-serif;
+	}
+
+	.btnConnexion:hover {
+		background-color: #d4c5b2;
+	}
+
+	#inscription {
+		margin: 20px;
+	}

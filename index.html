@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" lang="fr">
+	<link rel="stylesheet" type="text/css" href="connexion.css">
+	<title>Connexion</title>
+</head>
+<body>
+	<main>
+		<div id="logo">
+			<img src="Images/OnDrugz.png" alt="Logo de OnDrugz">
+		</div>
+		<div id="page">
+			<h1 id="titre">Se connecter</h1>
+			<form action="index.php" method="post">
+				<div class="label">
+					<label >Adresse mail</label>
+				</div>
+				<div class="champ">
+					<input type="text" name="id" class="donnees">
+				</div>
+				<div class="label">
+					<label>Mot de passe</label>
+				</div>
+				<div class="champ">
+					<input type="text" name="mdp" class="donnees">
+				</div>
+				<div id="avertissement">
+				<p>Vous êtes sur le point d'entrer dans un marché noir d'achat et de vente de <strong>stupéfiants</strong> et d'<strong>armes</strong>.</p>
+				<p>Veuillez bien lire la totalité des droits d'utilisation afin de vous assurer une navigation sûre.</p>
+			</div>
+			<div id="validation">
+				<div id="droitsUtilisation">
+					<input type="checkbox" name="checkboxDroitUtilisation">
+					<a href="https://www.google.com/" id="lienDroitUtilisation" >
+						Droits d'utilisation
+					</a>
+				</div>
+				<div id="blocBoutton">
+					<input type="button" name="connecter" class="btnConnexion" value="Connexion">
+				</div>
+			</div>
+			</form>
+			
+		</div>
+		<div id="inscription">
+			<label id="">Pas encore de compte ? </label>
+			<input type="submit" name="inscrire" class="btnConnexion" value="S'inscrire">
+		</div>
+	</main>
+</body>
+</html>
