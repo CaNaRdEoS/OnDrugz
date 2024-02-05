@@ -1,0 +1,166 @@
+body {
+	font-family: "Amazon Ember",Arial,sans-serif;
+	margin: 0 auto;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	}
+
+#haut_page {
+	display: flex;
+	padding: 2vw;
+	padding-left: 12vw;
+	align-items: center;
+	background-image: url('Images/Wallpaper.png');
+}
+
+#haut_bloc_principal {
+	display: flex;
+}
+
+.element_haut_page:last-child {
+	padding-left: 5vw;
+}
+
+#photo_profil {
+	width: 150px;
+	border-radius: 100px;
+}
+
+#bloc_logo_suivre {
+	display: flex;
+	align-items: center;
+	margin-right: 1vw;
+}
+
+#logo_suivre {
+	width: 40px;
+}
+
+#bloc_pseudo {
+	display: flex;
+	align-items: center;
+}
+
+#pseudo {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 40px;
+}
+
+#bas_bloc_principal {
+	display: flex;
+	margin-top: 10px;
+}
+
+.label_logo {
+	font-weight: bold;
+}
+
+.element_bas_bloc_principal {
+	display: flex;
+	margin-right: 2vw;
+}
+
+.bloc_logo {
+	margin-right: 0.5vw;
+}
+
+
+
+
+/* Header */
+header {
+	max-width: none;
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	background-color: whitesmoke;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+strong {
+	font-weight: normal;
+}
+
+#burger {
+	display: flex;
+	width: 100px;}
+
+#burger_icon{
+	cursor: pointer;
+	padding: 10px;
+}
+
+.burger-line span {
+	display: block;
+  	width: 55px;
+  	height: 7px;
+  	background-color: black;
+  	margin: 10px;
+  	border-radius: 50px;
+}
+
+.menu_list{
+	display: block;
+}
+
+.element_menu {
+	background-color: whitesmoke;
+	padding: 10px;
+	margin-left: -50px;
+	padding-left: 50px;
+	font-weight: bold;
+}
+
+.element_menu:hover {
+	background-color: hsl(0, 0%, 90%)
+}
+
+.sous_list {
+	padding-top: 10px;
+}
+
+#menu {
+	display: none;
+	margin-top: 70px;
+	position: absolute;
+	width: 200px;
+}
+
+#burger:hover > nav {
+	display: block;
+}
+
+#left_header, #right_header {
+	display: flex;
+}
+
+#photo_header, #photo_profile {
+	margin-top: 10px;
+	height: 75px;
+}
+
+#photo_profile {
+	border-radius: 50px;
+}
+
+#logo_deconnexion {
+	margin: 20px;
+	height: 50px;
+}
+
+.element_sous_list {
+	padding: 5px;
+	font-weight: normal;
+}
