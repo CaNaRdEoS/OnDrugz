@@ -8,69 +8,6 @@ main {
 	margin: 0 auto;
 	}
 
-#haut_page {
-	display: flex;
-	padding: 2vw;
-	padding-left: 12vw;
-	align-items: center;
-	background-image: url('Images/Wallpaper.png');
-}
-
-#haut_bloc_principal {
-	display: flex;
-}
-
-.element_haut_page:last-child {
-	padding-left: 5vw;
-}
-
-#photo_profil {
-	width: 150px;
-	border-radius: 100px;
-}
-
-#bloc_logo_suivre {
-	display: flex;
-	align-items: center;
-	margin-right: 1vw;
-}
-
-#logo_suivre {
-	width: 40px;
-}
-
-#bloc_pseudo {
-	display: flex;
-	align-items: center;
-}
-
-#pseudo {
-	font-weight: bold;
-	font-style: italic;
-	font-size: 40px;
-}
-
-#bas_bloc_principal {
-	display: flex;
-	margin-top: 10px;
-}
-
-.label_logo {
-	font-weight: bold;
-}
-
-.element_bas_bloc_principal {
-	display: flex;
-	margin-right: 2vw;
-}
-
-.bloc_logo {
-	margin-right: 0.5vw;
-}
-
-
-
-
 /* Header */
 header {
 	max-width: none;
@@ -163,4 +100,117 @@ strong {
 .element_sous_list {
 	padding: 5px;
 	font-weight: normal;
+}
+
+/* Infos Primaire */
+
+#info_primaire {
+	display: flex;
+	padding: 2vw;
+	padding-left: 12vw;
+	align-items: center;
+	background-image: url('Images/Wallpaper.png');}
+
+#haut_bloc_principal {
+	display: flex;
+}
+
+.element_info_primaire:last-child {
+	padding-left: 5vw;
+}
+
+#photo_profil {
+	width: 150px;
+	border-radius: 100px;
+}
+
+#bloc_logo_suivre {
+	display: flex;
+	align-items: center;
+	margin-right: 1vw;
+}
+
+#logo_suivre {
+	width: 40px;
+}
+
+#bloc_pseudo {
+	display: flex;
+	align-items: center;
+}
+
+#pseudo {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 40px;
+}
+
+#bas_bloc_principal {
+	display: flex;
+	margin-top: 10px;
+}
+
+.label_logo {
+	font-weight: bold;
+}
+
+.element_bas_bloc_principal {
+	display: flex;
+	margin-right: 2vw;
+}
+
+.bloc_logo {
+	margin-right: 0.5vw;
+}
+
+
+/* Infos Complémentaires */
+
+#info_complementaire {
+	margin-top: 10px;
+	background-color: whitesmoke;
+}
+
+.element_info_complementaire {
+	display: flex;
+}
+
+#bloc_a_propos {
+	padding: 3vw;
+	width: 50%;
+}
+
+#bloc_label_a_propos {
+	padding-left: 20px;
+}
+
+.label_titre_info {
+	font-weight: bold;
+}
+
+#separateur_a_propos_classement {
+	margin: 20px;
+	background-color: black;
+	width: 3px;
+}
+
+#bloc_classement {
+	padding: 3vw;
+}
+
+.element_classement {
+	margin: 10px;
+}
+
+.classement {
+	padding: 10px;
+	display: flex;
+}
+
+#placement_vente {
+	font-size: 30px;
+}
+
+#placement_achat {
+	font-size: 30px;
 }
