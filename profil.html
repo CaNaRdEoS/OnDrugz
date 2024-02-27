@@ -164,54 +164,144 @@
 
 		<div id="info_complementaire">
 			<div class="element_info_complementaire">
-				<div id="bloc_a_propos">
+				<div class="bloc_vertical_espace">
 					<div id="bloc_label_a_propos">
-						<label class="label_titre_info">A PROPOS DE MOI</label>
+						<div class="titre_info">
+							<label class="label_titre_info">A PROPOS DE MOI</label>
+						</div>
 					</div>
+
 					<div id="bloc_champ_a_propos">
-						<p id="champ_a_propos">
-							Bonjour cher voyageur du 8eme ciel.</br>Si tu cherche de la bonne dope vient m'en acheter, j'ai la kush qui fait voler comme superman, la coke qui te nettoie la narine et la lean qui te rends plus rapide que Flash.
-						</p>
+						<textarea id="champ_a_propos" disabled>Bonjour cher voyageur du 8eme ciel. Si tu cherche de la bonne dope vient m'en acheter, j'ai la kush qui fait voler comme superman, la coke qui te nettoie la narine et la lean  te rends plus rapide que Flash.</textarea>
 					</div>
 				</div>
 
-				<span id="separateur_a_propos_classement"></span>
+				<div class="bloc_vertical_espace">
+					<div class="titre_info">
+						<label class="label_titre_info">LISTE DES ASSOCIÉS</label>
+					</div>
 
-				<div id="bloc_classement">
-					<div class="element_classement">
+					<div class="bloc_scrollable">
+						<div class="response" id="apiResponse">
+			                <table>
+			                    <thead>
+			                    <tr>
+			                        <th></th>
+			                        <th></th>
+			                    </tr>
+			                    </thead>
+			                    <tbody id="responseTableBody">
+			                        <!-- Les lignes du tableau seront ajoutées ici via JavaScript -->
+			                    </tbody>
+			                </table>
+			            </div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="element_info_complementaire">
+				<div class="bloc_vertical_espace">
+					<div class="titre_donnee_verticale">
+						<div class="titre_info">
+							<label class="label_titre_info">DROGUE PLUS ACHETEE</label>
+						</div>
+						<div class="bloc_top3">
+							<div class="element_top3">
+								<label>Mary Jane</label>
+							</div>
+							<div class="element_top3">
+								<label>Coque a Cola</label>
+							</div>
+							<div class="element_top3">
+								<label>LSDope</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="titre_donnee_verticale">
+						<div class="titre_info">
+							<label class="label_titre_info">DROGUE PLUS VENDUE</label>
+						</div>
+						<div class="bloc_top3">
+							<div class="element_top3">
+								<label>Super-Nova</label>
+							</div>
+							<div class="element_top3">
+								<label>Megaloman</label>
+							</div>
+							<div class="element_top3">
+								<label>Wanda</label>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="bloc_vertical_espace">
+					<div class="titre_donnee_verticale">
+						<div class="titre_info">
+							<label class="label_titre_info">FOURNISSEUR PREFERE</label>
+						</div>
+						<div class="bloc_top3">
+							<div class="element_top3">
+								<label>7010001</label>
+							</div>
+							<div class="element_top3">
+								<label>7010002</label>
+							</div>
+							<div class="element_top3">
+								<label>7010003</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="titre_donnee_verticale">
+						<div class="titre_info">
+							<label class="label_titre_info">MEILLEUR CLIENT</label>
+						</div>
+						<div class="bloc_top3">
+							<div class="element_top3">
+								<label>7110001</label>
+							</div>
+							<div class="element_top3">
+								<label>7110002</label>
+							</div>
+							<div class="element_top3">
+								<label>7110003</label>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="bloc_vertical_espace">
+					<div class="titre_donnee_verticale">
 						<div class="titre_info">
 							<label class="label_titre_info">CLASSEMENT VENTES</label>
 						</div>
 						<div class="classement">
-							<div class="bloc_placement">
-								<label id="placement_vente"> 1296</label>
+							<div class="placement">
+								<label class="label_placement" id="placement_vente"> 1296</label>
 							</div>
-							<div class="bloc_eme">
-								<label class="eme">ème</label>
+							<div class="eme">
+								<label class="label_eme">ème</label>
 							</div>
 						</div>
 					</div>
-					<div class="element_classement">
+					<div class="titre_donnee_verticale">
 						<div class="titre_info">
 							<label class="label_titre_info">CLASSEMENT ACHATS</label>
 						</div>
 						<div class="classement">
 							<div class="bloc_placement">
-								<label id="placement_achat"> 3211</label>
+								<label class="label_placement" id="placement_achat"> 3211</label>
 							</div>
-							<div class="bloc_eme">
-								<label class="eme">ème</label>
+							<div class="eme">
+								<label class="label_eme">ème</label>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
-			<div class="element_info_complementaire">
-				
-			</div>
-
-
 		</div>
 	</main>
 		

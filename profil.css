@@ -1,11 +1,13 @@
 body {
 	font-family: "Amazon Ember",Arial,sans-serif;
+	text-align: center;
 	margin: 0 auto;
 }
 
 main {
 	max-width: 1200px;
 	margin: 0 auto;
+	margin-top: 5px;
 	}
 
 /* Header */
@@ -14,7 +16,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	height: 100px;
-	background-color: whitesmoke;
+	background-image: url('Images/BandeHeader.avif');
 }
 
 li {
@@ -30,6 +32,10 @@ strong {
 	font-weight: normal;
 }
 
+textarea {
+    resize: none;
+}
+
 #burger {
 	display: flex;
 	width: 100px;}
@@ -43,7 +49,7 @@ strong {
 	display: block;
   	width: 55px;
   	height: 7px;
-  	background-color: black;
+  	background-color: forestgreen;
   	margin: 10px;
   	border-radius: 50px;
 }
@@ -53,6 +59,7 @@ strong {
 }
 
 .element_menu {
+	text-align: left;
 	background-color: whitesmoke;
 	padding: 10px;
 	margin-left: -50px;
@@ -109,7 +116,8 @@ strong {
 	padding: 2vw;
 	padding-left: 12vw;
 	align-items: center;
-	background-image: url('Images/Wallpaper.png');}
+	background-image: url('Images/Wallpaper.png');
+}
 
 #haut_bloc_principal {
 	display: flex;
@@ -167,50 +175,46 @@ strong {
 /* Infos Complémentaires */
 
 #info_complementaire {
-	margin-top: 10px;
+	margin-top: 5px;
+	padding: 3vw;
 	background-color: whitesmoke;
 }
 
 .element_info_complementaire {
 	display: flex;
+	justify-content: space-around;
 }
 
-#bloc_a_propos {
-	padding: 3vw;
-	width: 50%;
+.element_info_complementaire:not(:first-child) {
+	padding-top: 50px;
 }
 
-#bloc_label_a_propos {
+.titre_info:first-child {
 	padding-left: 20px;
+	text-align: left;
+}
+
+#bloc_champ_a_propos {
+	text-align: left;
+}
+
+#champ_a_propos {
+	width: 500px;
+	height: 100px;
 }
 
 .label_titre_info {
 	font-weight: bold;
 }
 
-#separateur_a_propos_classement {
-	margin: 20px;
-	background-color: black;
-	width: 3px;
-}
-
-#bloc_classement {
-	padding: 3vw;
-}
-
-.element_classement {
-	margin: 10px;
-}
-
 .classement {
-	padding: 10px;
 	display: flex;
 }
 
-#placement_vente {
+.label_placement {
 	font-size: 30px;
 }
 
-#placement_achat {
-	font-size: 30px;
+.classement {
+	justify-content: center;
 }
