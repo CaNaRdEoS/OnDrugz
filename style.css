@@ -109,7 +109,7 @@ textarea {
 	font-weight: normal;
 }
 
-/* Infos Primaire */
+/* Profil Infos Primaire */
 
 #info_primaire {
 	display: flex;
@@ -147,7 +147,7 @@ textarea {
 	align-items: center;
 }
 
-#pseudo {
+#nom {
 	font-weight: bold;
 	font-style: italic;
 	font-size: 40px;
@@ -172,7 +172,7 @@ textarea {
 }
 
 
-/* Infos Complémentaires */
+/* Profil Infos Complémentaires */
 
 #info_complementaire {
 	margin-top: 5px;
@@ -217,4 +217,14 @@ textarea {
 
 .classement {
 	justify-content: center;
+}
+
+/* Prooduit Top */
+
+#drug_background {
+	padding: 25px;
+	height: 400px;
+	background-image: url('Images/Fentanyl.jpeg');
+	background-size: cover;
+	background-position: center;
 }
